@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class Contacto implements Serializable{
 
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 1L;
 	private String nombre;
@@ -14,12 +14,12 @@ public class Contacto implements Serializable{
 	private String direccion;
 	private String telefono;
 	private String email;
-	
+
 	private Grupo[] listaGrupos;
 	private Reunion []listaReuniones;
 
-	
-	
+
+
 	public Contacto() {
 		super();
 	}
@@ -34,8 +34,8 @@ public class Contacto implements Serializable{
 		this.listaGrupos = new Grupo[numeroGrupos];
 		this.listaReuniones = new Reunion[numeroReuniones];
 	}
-	
-	
+
+
 	public String getNombre() {
 		return nombre;
 	}
@@ -113,7 +113,7 @@ public class Contacto implements Serializable{
 				+ ", email=" + email + ", listaGrupos=" + Arrays.toString(listaGrupos) + ", listaReuniones="
 				+ Arrays.toString(listaReuniones) + "]";
 	}
-	
-	
-	
+
+
+
 }

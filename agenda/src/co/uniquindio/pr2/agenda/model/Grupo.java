@@ -6,14 +6,14 @@ import java.util.Arrays;
 public class Grupo implements Serializable{
 
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 1L;
 	private String nombre;
 	private Contacto[] listaContactos;
 	private Categoria categoria;
-	
-	
+
+
 	public Grupo(String nombre, int numeroContactos) {
 		super();
 		this.nombre = nombre;
@@ -90,7 +90,7 @@ public class Grupo implements Serializable{
 			return false;
 		return true;
 	}
-	
-	
+
+
 
 }

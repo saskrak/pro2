@@ -1,5 +1,5 @@
 package application;
-	
+
 import java.io.IOException;
 
 import javafx.application.Application;
@@ -17,10 +17,10 @@ public class Main extends Application {
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("/co.uniquindio.pr2.agenda.controllers/View.FXML"));
 		Parent root = loader.load();
 		Scene scene = new Scene(root);
-		
-		
+
+
 	}
-	
+
 	public static void main(String[] args) {
 		launch(args);
 	}
