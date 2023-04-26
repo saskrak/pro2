@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 import co.edu.uniquindio.biblioteca.model.Estudiante;
-import co.edu.uniquindio.biblioteca.model.Exception.*;
+import co.uniquindio.pr2.agenda.exceptions.*;
 import co.edu.uniquindio.biblioteca.model.String;
 
 //import co.uniquindio.pr2.agenda.exceptions.Excepciones;
