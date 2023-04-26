@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.uniquindio.pr2.agenda.controllers.GestionControllersView">
+   <children>
+      <Pane layoutX="13.0" layoutY="14.0" prefHeight="495.0" prefWidth="340.0">
+         <children>
+            <Label layoutX="126.0" layoutY="23.0" prefHeight="24.0" prefWidth="66.0" text="Agenda" />
+            <Button layoutX="94.0" layoutY="312.0" mnemonicParsing="false" onAction="#showWindowAgregar" text="Agregar persona" />
+            <Button layoutX="105.0" layoutY="259.0" mnemonicParsing="false" onAction="#showWindowReunion" text="Crear reunion" />
+            <Button layoutX="90.0" layoutY="358.0" mnemonicParsing="false" onAction="#showWindowListaCont" text="Lista de contactos" />
+            <Button layoutX="93.0" layoutY="404.0" mnemonicParsing="false" onAction="#showWindowEliminarCont" text="Eliminar contacto" />
+            <ImageView fitHeight="143.0" fitWidth="236.0" layoutX="50.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../Downloads/xd.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
